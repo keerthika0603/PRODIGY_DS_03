@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Customer Purchase Prediction Dashboard</title>
+
+<style>
+
+body {
+    margin:0;
+    background:#eef2f7;
+    font-family:Segoe UI;
+}
+
+.header {
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+.container {
+    width:90%;
+    margin:auto;
+}
+
+.card {
+    background:white;
+    margin:20px 0;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.stats {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+.stat {
+    background:#f8fafc;
+    padding:20px;
+    border-radius:10px;
+    width:220px;
+    text-align:center;
+    margin:10px;
+}
+
+.stat h2 {
+    color:#2563eb;
+}
+
+img {
+    width:100%;
+    border-radius:10px;
+}
+
+.footer {
+    text-align:center;
+    color:gray;
+    padding:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+<h1>Customer Purchase Prediction Dashboard</h1>
+<p>Decision Tree Machine Learning Project</p>
+</div>
+
+<div class="container">
+
+<div class="card">
+<h2>Model Summary</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h2>80.00%</h2>
+<p>Accuracy</p>
+</div>
+
+<div class="stat">
+<h2>15</h2>
+<p>Total Customers</p>
+</div>
+
+<div class="stat">
+<h2>9</h2>
+<p>Customers Purchased</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="card">
+<h2>Decision Tree Structure</h2>
+<img src="decision_tree.png">
+</div>
+
+<div class="card">
+<h2>Confusion Matrix</h2>
+<img src="confusion_matrix.png">
+</div>
+
+<div class="card">
+<h2>Feature Importance</h2>
+<img src="feature_importance.png">
+</div>
+
+<div class="card">
+<h2>Key Insights</h2>
+
+<ul>
+<li>Salary is an important factor influencing purchases.</li>
+<li>Customers with more previous purchases tend to buy again.</li>
+<li>The Decision Tree model successfully classifies customer behavior.</li>
+<li>Age also contributes to purchase prediction.</li>
+</ul>
+
+</div>
+
+</div>
+
+<div class="footer">
+Prodigy InfoTech Internship Project - Task 03
+</div>
+
+</body>
+</html>
